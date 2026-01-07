@@ -1,4 +1,4 @@
- IF NOT EXISTS ( -- Verifica se existe
+IF NOT EXISTS ( -- Verifica se existe
  -- Se não pula para o BEGIN
 	SELECT 1
 	FROM sys.databases -- Onde fica todos DB

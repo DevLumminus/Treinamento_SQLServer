@@ -18,9 +18,20 @@ Como usar o **IF OBJECT_ID('Tabela', 'Tipo de tabela')** para criar tabelas<br>
 | TF     | Função de tabela        |<br>
 Como usar o **CAST(GETDATE() AS DATE)** para DEFAULT de data de cadastro<br>
 Uso de varios tipos de dados (DECIMAL, DATE, VARCHAR, INT)<br>
+Uso do **INSERT INTO ... INTO** para inserção de dados<br>
+Uso do **IDENTITY(1,1)** como AUTO_INCREMENT
+Uso e formatação do**UNIQUE** para colunas (usar como CONSTRAINT)
 
-## MAIS PROFICIONAL
+## MAIS PROFISSIONAL
 Usar o ***ID*** para procurar o BD<br>
 Nunca use ***MONEY***<br>
 Sempre separe as ***CONTRAINT*** para melhor manutenção<br>
 No nome da tabela sempre use ***dbo***<br>
+Usar o ***BEGIN TRAN ... COMMIT*** para rastreio de mudanças<br>
+Uso de divisão visual dos itens do INSERT:
+    INSERT INTO dbo.Funcionarios(<br>
+        Nome,<br>
+        Cargo,<br>
+        Salario<br>
+    )<br>
+Explicitar quando for ***NOT NULL*** e quando for ***NULL*** mesmo sendo PK
