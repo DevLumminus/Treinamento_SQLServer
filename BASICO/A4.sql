@@ -16,3 +16,13 @@ IF OBJECT_ID('dbo.Departamentos', 'U') IS NULL
 	END;
 
 GO
+
+GO
+
+INSERT INTO dbo.Departamentos (
+	Nome, 
+	Localizacao
+) VALUES 
+	('PADRÃO', 'CENTRAL');
+
+GO

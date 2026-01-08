@@ -19,8 +19,12 @@ Como usar o **IF OBJECT_ID('Tabela', 'Tipo de tabela')** para criar tabelas<br>
 Como usar o **CAST(GETDATE() AS DATE)** para DEFAULT de data de cadastro<br>
 Uso de varios tipos de dados (DECIMAL, DATE, VARCHAR, INT)<br>
 Uso do **INSERT INTO ... INTO** para inserção de dados<br>
-Uso do **IDENTITY(1,1)** como AUTO_INCREMENT
-Uso e formatação do**UNIQUE** para colunas (usar como CONSTRAINT)
+Uso do **IDENTITY(1,1)** como AUTO_INCREMENT<br>
+Uso e formatação do**UNIQUE** para colunas (usar como CONSTRAINT)<br>
+Uso do **ALTER TABLE** para alterar tabelas<br>
+Criação de **INDEX** para uso futuro<br>
+Uso do **BEGIN TRAN** para gravar mudanças<br>
+Uso e preenchimento de **RAISERROR** para erros manuais<br>
 
 ## MAIS PROFISSIONAL
 Usar o ***ID*** para procurar o BD<br>
@@ -34,4 +38,7 @@ Uso de divisão visual dos itens do INSERT:
         Cargo,<br>
         Salario<br>
     )<br>
-Explicitar quando for ***NOT NULL*** e quando for ***NULL*** mesmo sendo PK
+Explicitar quando for ***NOT NULL*** e quando for ***NULL*** mesmo sendo PK<br>
+Uso de ***TRY ... CATCH*** para tratamento de erros<br>
+Uso de ***IF*** para verificação de existencia<br>
+Uso de ***@@TRANCOUNT*** para evitar erros no ROLLBACK
