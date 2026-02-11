@@ -25,6 +25,8 @@ Uso do **ALTER TABLE** para alterar tabelas<br>
 Criação de **INDEX** para uso futuro<br>
 Uso do **BEGIN TRAN** para gravar mudanças<br>
 Uso e preenchimento de **RAISERROR** para erros manuais<br>
+O **GETDATE** não impede inserções manuais<br>
+Uso do **SELECT**
 
 ## MAIS PROFISSIONAL
 Usar o ***ID*** para procurar o BD<br>
@@ -41,4 +43,6 @@ Uso de divisão visual dos itens do INSERT:
 Explicitar quando for ***NOT NULL*** e quando for ***NULL*** mesmo sendo PK<br>
 Uso de ***TRY ... CATCH*** para tratamento de erros<br>
 Uso de ***IF*** para verificação de existencia<br>
-Uso de ***@@TRANCOUNT*** para evitar erros no ROLLBACK
+Uso de ***@@TRANCOUNT*** para evitar erros no ROLLBACK<br>
+Nunca usar o ***USE*** e o ***GO*** em produção<br>
+Uso do ***SUM*** com o ***CASE*** para mostrar mais de uma analise<br>
