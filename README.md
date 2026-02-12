@@ -18,9 +18,31 @@ Como usar o **IF OBJECT_ID('Tabela', 'Tipo de tabela')** para criar tabelas<br>
 | TF     | Função de tabela        |<br>
 Como usar o **CAST(GETDATE() AS DATE)** para DEFAULT de data de cadastro<br>
 Uso de varios tipos de dados (DECIMAL, DATE, VARCHAR, INT)<br>
+Uso do **INSERT INTO ... INTO** para inserção de dados<br>
+Uso do **IDENTITY(1,1)** como AUTO_INCREMENT<br>
+Uso e formatação do**UNIQUE** para colunas (usar como CONSTRAINT)<br>
+Uso do **ALTER TABLE** para alterar tabelas<br>
+Criação de **INDEX** para uso futuro<br>
+Uso do **BEGIN TRAN** para gravar mudanças<br>
+Uso e preenchimento de **RAISERROR** para erros manuais<br>
+O **GETDATE** não impede inserções manuais<br>
+Uso do **SELECT**
 
-## MAIS PROFICIONAL
+## MAIS PROFISSIONAL
 Usar o ***ID*** para procurar o BD<br>
 Nunca use ***MONEY***<br>
 Sempre separe as ***CONTRAINT*** para melhor manutenção<br>
 No nome da tabela sempre use ***dbo***<br>
+Usar o ***BEGIN TRAN ... COMMIT*** para rastreio de mudanças<br>
+Uso de divisão visual dos itens do INSERT:
+    INSERT INTO dbo.Funcionarios(<br>
+        Nome,<br>
+        Cargo,<br>
+        Salario<br>
+    )<br>
+Explicitar quando for ***NOT NULL*** e quando for ***NULL*** mesmo sendo PK<br>
+Uso de ***TRY ... CATCH*** para tratamento de erros<br>
+Uso de ***IF*** para verificação de existencia<br>
+Uso de ***@@TRANCOUNT*** para evitar erros no ROLLBACK<br>
+Nunca usar o ***USE*** e o ***GO*** em produção<br>
+Uso do ***SUM*** com o ***CASE*** para mostrar mais de uma analise<br>
