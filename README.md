@@ -26,7 +26,14 @@ Criação de **INDEX** para uso futuro<br>
 Uso do **BEGIN TRAN** para gravar mudanças<br>
 Uso e preenchimento de **RAISERROR** para erros manuais<br>
 O **GETDATE** não impede inserções manuais<br>
-Uso do **SELECT**
+Uso do **SELECT**<br>
+Descoberta de codigo completo para SELECIONAR os erros possiveis do SQL Server<br>
+Uso do **LIKE**
+Uso de fuções agregadoras (**MAX**, **MIN** e **AVG**)
+Uso do **BETWEEN**
+Uso do **UPDATE**
+Uso do **DISTINCT**
+Uso de **JOINs**
 
 ## MAIS PROFISSIONAL
 Usar o ***ID*** para procurar o BD<br>
@@ -46,3 +53,12 @@ Uso de ***IF*** para verificação de existencia<br>
 Uso de ***@@TRANCOUNT*** para evitar erros no ROLLBACK<br>
 Nunca usar o ***USE*** e o ***GO*** em produção<br>
 Uso do ***SUM*** com o ***CASE*** para mostrar mais de uma analise<br>
+Uso do ***ERROR_NUMBER*** para personalização de erros<br>
+Uso da plataforma para facilitar comandos<br>
+Uso do ***FULLTEXT***<br>
+Uso do ***TIER***<br>
+Quanto menos coisa melhor<br>
+Quando for inserções, atualizações ou deletes simples não se usa<br>não se usa ***TRAN*** e nem ***TRY-CATCH***
+Sempre, quando for ordenar, use o ***ORDER BY***
+Sempre considere usar ***Indice*** para SELECTs frequentes
+Se tiver como uma coluna ser NULL use ***LEFT JOIN***
