@@ -28,12 +28,13 @@ Uso e preenchimento de **RAISERROR** para erros manuais<br>
 O **GETDATE** não impede inserções manuais<br>
 Uso do **SELECT**<br>
 Descoberta de codigo completo para SELECIONAR os erros possiveis do SQL Server<br>
-Uso do **LIKE**
-Uso de fuções agregadoras (**MAX**, **MIN** e **AVG**)
-Uso do **BETWEEN**
-Uso do **UPDATE**
-Uso do **DISTINCT**
-Uso de **JOINs**
+Uso do **LIKE**<br>
+Uso de fuções agregadoras (**MAX**, **MIN** e **AVG**)<br>
+Uso do **BETWEEN**<br>
+Uso do **UPDATE**<br>
+Uso do **DISTINCT**<br>
+Uso de **JOINs**<br>
+Uso do **HAVING**<br>
 
 ## MAIS PROFISSIONAL
 Usar o ***ID*** para procurar o BD<br>
@@ -58,7 +59,8 @@ Uso da plataforma para facilitar comandos<br>
 Uso do ***FULLTEXT***<br>
 Uso do ***TIER***<br>
 Quanto menos coisa melhor<br>
-Quando for inserções, atualizações ou deletes simples não se usa<br>não se usa ***TRAN*** e nem ***TRY-CATCH***
-Sempre, quando for ordenar, use o ***ORDER BY***
-Sempre considere usar ***Indice*** para SELECTs frequentes
-Se tiver como uma coluna ser NULL use ***LEFT JOIN***
+Quando for inserções, atualizações ou deletes simples não se usa<br>não se usa ***TRAN*** e nem ***TRY-CATCH***<br>
+Sempre, quando for ordenar, use o ***ORDER BY***<br>
+Sempre considere usar ***Indice*** para SELECTs frequentes<br>
+Se tiver como uma coluna ser NULL use ***LEFT JOIN***<br>
+Uso de ***WHERE*** com ***IS NULL*** e ***NOT EXISTS***
