@@ -38,6 +38,7 @@ Uso do **HAVING**<br>
 
 ## MAIS PROFISSIONAL
 Usar o ***ID*** para procurar o BD<br>
+Uso da parametrização manual para criar um BD<br>
 Nunca use ***MONEY***<br>
 Sempre separe as ***CONTRAINT*** para melhor manutenção<br>
 No nome da tabela sempre use ***dbo***<br>
