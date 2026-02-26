@@ -17,6 +17,7 @@ Como usar o **IF OBJECT_ID('Tabela', 'Tipo de tabela')** para criar tabelas<br>
 | IF     | Função inline de tabela |<br>
 | TF     | Função de tabela        |<br>
 Como usar o **CAST(GETDATE() AS DATE)** para DEFAULT de data de cadastro<br>
+Não existe **CONSTRAINT** para **DEFAULT**
 Uso de varios tipos de dados (DECIMAL, DATE, VARCHAR, INT)<br>
 Uso do **INSERT INTO ... INTO** para inserção de dados<br>
 Uso do **IDENTITY(1,1)** como AUTO_INCREMENT<br>
@@ -64,4 +65,5 @@ Quando for inserções, atualizações ou deletes simples não se usa<br>não se
 Sempre, quando for ordenar, use o ***ORDER BY***<br>
 Sempre considere usar ***Indice*** para SELECTs frequentes<br>
 Se tiver como uma coluna ser NULL use ***LEFT JOIN***<br>
-Uso de ***WHERE*** com ***IS NULL*** e ***NOT EXISTS***
+Uso de ***WHERE*** com ***IS NULL*** e ***NOT EXISTS***<br>
+Sempre use ***GROUP BY*** com PK
