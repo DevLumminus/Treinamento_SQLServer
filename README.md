@@ -36,6 +36,8 @@ Uso do **UPDATE**<br>
 Uso do **DISTINCT**<br>
 Uso de **JOINs**<br>
 Uso do **HAVING**<br>
+Uso do **DATADIFF**<br>
+Pode usar **JOINs** em **UPDATEs**
 
 ## MAIS PROFISSIONAL
 Usar o ***ID*** para procurar o BD<br>
@@ -66,4 +68,6 @@ Sempre, quando for ordenar, use o ***ORDER BY***<br>
 Sempre considere usar ***Indice*** para SELECTs frequentes<br>
 Se tiver como uma coluna ser NULL use ***LEFT JOIN***<br>
 Uso de ***WHERE*** com ***IS NULL*** e ***NOT EXISTS***<br>
-Sempre use ***GROUP BY*** com PK
+Sempre use ***GROUP BY*** com PK<br>
+Uso de variavel (Começa com ***DECLARE @***) para evitar repetição<br>
+Nunca use ***GETDATE*** repetido pois pode dar diferença
