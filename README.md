@@ -37,7 +37,8 @@ Uso do **DISTINCT**<br>
 Uso de **JOINs**<br>
 Uso do **HAVING**<br>
 Uso do **DATADIFF**<br>
-Pode usar **JOINs** em **UPDATEs**
+Pode usar **JOINs** em **UPDATEs**<br>
+Uso do **DATEADD** para contas com tempo<br>
 
 ## MAIS PROFISSIONAL
 Usar o ***ID*** para procurar o BD<br>
@@ -70,4 +71,6 @@ Se tiver como uma coluna ser NULL use ***LEFT JOIN***<br>
 Uso de ***WHERE*** com ***IS NULL*** e ***NOT EXISTS***<br>
 Sempre use ***GROUP BY*** com PK<br>
 Uso de variavel (Começa com ***DECLARE @***) para evitar repetição<br>
-Nunca use ***GETDATE*** repetido pois pode dar diferença
+Nunca use ***GETDATE*** repetido pois pode dar diferença<br>
+0 no tempo = 1900-01-01<br>
+Sempre usar ***DISTINCT***
