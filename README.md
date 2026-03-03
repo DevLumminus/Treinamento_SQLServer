@@ -39,6 +39,9 @@ Uso do **HAVING**<br>
 Uso do **DATADIFF**<br>
 Pode usar **JOINs** em **UPDATEs**<br>
 Uso do **DATEADD** para contas com tempo<br>
+Criação de **VIEW**<br>
+Criação de **INDEX**<br>
+Só pode usar indice **CLUSTERED**
 
 ## MAIS PROFISSIONAL
 Usar o ***ID*** para procurar o BD<br>
@@ -73,4 +76,7 @@ Sempre use ***GROUP BY*** com PK<br>
 Uso de variavel (Começa com ***DECLARE @***) para evitar repetição<br>
 Nunca use ***GETDATE*** repetido pois pode dar diferença<br>
 0 no tempo = 1900-01-01<br>
-Sempre usar ***DISTINCT***
+Sempre usar ***DISTINCT***<br>
+Uso de ***DENSE_RANK()*** para ordenar os registros<br>
+Nunca se usa **TOP** ou **ORDER BY** em VIEWs<br>
+Usar ***STATISTICS*** para avaliação de desempenho<br>
