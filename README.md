@@ -42,6 +42,7 @@ Uso do **DATEADD** para contas com tempo<br>
 Criação de **VIEW**<br>
 Criação de **INDEX**<br>
 Só pode usar indice **CLUSTERED**
+Uso de **SELECT** dentro de **SELECT**
 
 ## MAIS PROFISSIONAL
 Usar o ***ID*** para procurar o BD<br>
